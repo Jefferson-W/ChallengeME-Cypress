@@ -1,0 +1,21 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "description": "Desafio QA mercado eletronico",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cy:run": "npx cypress run -b chrome" 
+  },
+  "keywords": [
+    "js",
+    "cypress",
+    "qa"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.2",
+    "faker": "=5.5.3"
+  }
+}
