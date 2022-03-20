@@ -1,0 +1,31 @@
+[ {
+  "uid" : "52c849bf558810d9",
+  "name" : "login com sucesso",
+  "time" : {
+    "start" : 1647786435770,
+    "stop" : 1647786444504,
+    "duration" : 8734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a01f45139f527ac",
+  "name" : "login inválido",
+  "time" : {
+    "start" : 1647786444528,
+    "stop" : 1647786448260,
+    "duration" : 3732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c79401c0c776f426",
+  "name" : "login em branco",
+  "time" : {
+    "start" : 1647786448298,
+    "stop" : 1647786451769,
+    "duration" : 3471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

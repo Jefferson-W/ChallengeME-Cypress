@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Mar 20 11:27:15 BRT 2022","Sun Mar 20 11:27:24 BRT 2022","8734","","Login","","","","login com sucesso",""
+"passed","Sun Mar 20 11:27:24 BRT 2022","Sun Mar 20 11:27:28 BRT 2022","3732","","Login","","","","login inválido",""
+"passed","Sun Mar 20 11:27:28 BRT 2022","Sun Mar 20 11:27:31 BRT 2022","3471","","Login","","","","login em branco",""
