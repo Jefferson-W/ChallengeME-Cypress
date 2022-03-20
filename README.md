@@ -39,7 +39,7 @@ Para gear o Allure Reports, utilize os comandos na sequencia abaixo:
 
 <br />
 <p align="center">
-    <img src="assets/allure.png" width="500" alt="Allure">
+    <img src="./cypress/assets/allure.png" width="500" alt="Allure">
     </p>
 
 ### Tecnologias
