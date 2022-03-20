@@ -29,7 +29,7 @@ Agora, basta digitar o comando abaixo, para rodar o Cypress e a Spec.
 Para rodar o teste por "baixo dos panos" (fora do Browser), utilize o comando abaixo.
 ### `npm run cy:run`
 
-Para gear o Allure Reports, utilize os comandos na sequencia abaixo:
+Para gerar o Allure Reports, utilize os comandos na sequencia abaixo:
 
 ### `npm run allure:run `
 ### `npm run allure:report`
