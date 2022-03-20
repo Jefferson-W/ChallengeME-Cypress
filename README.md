@@ -37,7 +37,7 @@ Para rodar o teste por "baixo dos panos" (fora do Browser), utilize o comando ab
 - Javascript: linguagem utilizada junto com  o framework;
 - Arquivo com massa de dados: Gerado o arquivo em cypress/factories/login.js contendo a massa de dados para os testes;
 - Page Objects;
-- Evidencias do teste: Gerado o arquivo em Cypress/videos/login.spec.js.mp4;
+- Evidencias do teste: Gerado o arquivo em cypress/videos/login.spec.js.mp4;
 - Faker: lib faker, para gerar dados ficticios auxiliando na criação da massa de dados;
 
 
