@@ -1,12 +1,12 @@
 {
-  "uid" : "5a01f45139f527ac",
-  "name" : "login inválido",
-  "fullName" : "login inválido",
-  "historyId" : "c6b62cded41daa2026dd9cdabe09ca4e",
+  "uid" : "e5f53c99ea25d897",
+  "name" : "login em branco",
+  "fullName" : "login em branco",
+  "historyId" : "3a0c928c25eb10706fa8a0e0c944136c",
   "time" : {
-    "start" : 1647786444528,
-    "stop" : 1647786448260,
-    "duration" : 3732
+    "start" : 1647985802379,
+    "stop" : 1647985806014,
+    "duration" : 3635
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,218 +21,218 @@
     "steps" : [ {
       "name" : "visitando a pagina",
       "time" : {
-        "start" : 1647786444528,
-        "stop" : 1647786446181,
-        "duration" : 1653
+        "start" : 1647985802380,
+        "stop" : 1647985804550,
+        "duration" : 2170
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit ?controller=authentication -> 302: http://automationpractice.com/index.php?controller=authentication",
         "time" : {
-          "start" : 1647786444550,
-          "stop" : 1647786446181,
-          "duration" : 1631
+          "start" : 1647985802443,
+          "stop" : 1647985804550,
+          "duration" : 2107
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "stepsCount" : 1
     }, {
       "name" : "get input[id=\"email\"]",
       "time" : {
-        "start" : 1647786446185,
-        "stop" : 1647786446205,
-        "duration" : 20
+        "start" : 1647985804552,
+        "stop" : 1647985804577,
+        "duration" : 25
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "assert expected **<input#email.is_required.validate.account_input.form-control>** to be **visible**",
       "time" : {
-        "start" : 1647786446205,
-        "stop" : 1647786446205,
+        "start" : 1647985804577,
+        "stop" : 1647985804577,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "type ¨@#CassidyTillman2565email",
+      "name" : "type  ",
       "time" : {
-        "start" : 1647786446205,
-        "stop" : 1647786446744,
-        "duration" : 539
+        "start" : 1647985804577,
+        "stop" : 1647985804811,
+        "duration" : 234
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "get input[id=\"passwd\"]",
       "time" : {
-        "start" : 1647786446744,
-        "stop" : 1647786446779,
-        "duration" : 35
+        "start" : 1647985804811,
+        "stop" : 1647985804833,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "assert expected **<input#passwd.is_required.validate.account_input.form-control>** to be **visible**",
       "time" : {
-        "start" : 1647786446779,
-        "stop" : 1647786446779,
+        "start" : 1647985804833,
+        "stop" : 1647985804833,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "type ¨@#CassidyTillman2565email",
+      "name" : "type  ",
       "time" : {
-        "start" : 1647786446779,
-        "stop" : 1647786447324,
-        "duration" : 545
+        "start" : 1647985804833,
+        "stop" : 1647985805084,
+        "duration" : 251
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "get button[id=\"SubmitLogin\"]",
       "time" : {
-        "start" : 1647786447324,
-        "stop" : 1647786447344,
-        "duration" : 20
+        "start" : 1647985805084,
+        "stop" : 1647985805094,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647786447344,
-        "stop" : 1647786447467,
-        "duration" : 123
+        "start" : 1647985805094,
+        "stop" : 1647985805234,
+        "duration" : 140
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "form sub --submitting form--",
       "time" : {
-        "start" : 1647786447467,
-        "stop" : 1647786447467,
+        "start" : 1647985805234,
+        "stop" : 1647985805234,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1647786447467,
-        "stop" : 1647786447467,
+        "start" : 1647985805234,
+        "stop" : 1647985805234,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "get ol > li",
       "time" : {
-        "start" : 1647786447467,
-        "stop" : 1647786448259,
-        "duration" : 792
+        "start" : 1647985805234,
+        "stop" : 1647985806013,
+        "duration" : 779
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "assert expected **<li>** to be **visible**",
       "time" : {
-        "start" : 1647786448259,
-        "stop" : 1647786448259,
+        "start" : 1647985806013,
+        "stop" : 1647985806013,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "assert expected **<li>** to have text **Invalid email address.**",
+      "name" : "assert expected **<li>** to have text **An email address required.**",
       "time" : {
-        "start" : 1647786448259,
-        "stop" : 1647786448259,
+        "start" : 1647985806013,
+        "stop" : 1647985806013,
         "duration" : 0
       },
       "status" : "passed",
@@ -240,22 +240,22 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "Invalid email address."
+        "value" : "An email address required."
       }, {
         "name" : "expected",
-        "value" : "Invalid email address."
+        "value" : "An email address required."
       } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 15,
-    "hasContent" : true,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : true,
+    "stepsCount" : 15
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -275,6 +275,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5a01f45139f527ac.json",
+  "source" : "e5f53c99ea25d897.json",
   "parameterValues" : [ ]
 }

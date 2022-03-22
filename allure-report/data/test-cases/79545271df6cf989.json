@@ -1,12 +1,12 @@
 {
-  "uid" : "52c849bf558810d9",
+  "uid" : "79545271df6cf989",
   "name" : "login com sucesso",
   "fullName" : "login com sucesso",
   "historyId" : "c724d362d70163607b1ba246701406c9",
   "time" : {
-    "start" : 1647786435770,
-    "stop" : 1647786444504,
-    "duration" : 8734
+    "start" : 1647985790583,
+    "stop" : 1647985798430,
+    "duration" : 7847
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,235 +21,235 @@
     "steps" : [ {
       "name" : "visitando a pagina",
       "time" : {
-        "start" : 1647786435773,
-        "stop" : 1647786440032,
-        "duration" : 4259
+        "start" : 1647985790586,
+        "stop" : 1647985794667,
+        "duration" : 4081
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit ?controller=authentication -> 302: http://automationpractice.com/index.php?controller=authentication",
         "time" : {
-          "start" : 1647786435793,
-          "stop" : 1647786440030,
-          "duration" : 4237
+          "start" : 1647985790627,
+          "stop" : 1647985794664,
+          "duration" : 4037
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "stepsCount" : 1
     }, {
       "name" : "get input[id=\"email\"]",
       "time" : {
-        "start" : 1647786440036,
-        "stop" : 1647786440087,
-        "duration" : 51
+        "start" : 1647985794672,
+        "stop" : 1647985794720,
+        "duration" : 48
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "assert expected **<input#email.is_required.validate.account_input.form-control>** to be **visible**",
       "time" : {
-        "start" : 1647786440087,
-        "stop" : 1647786440087,
+        "start" : 1647985794720,
+        "stop" : 1647985794720,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "type jefferson.lsilva@me.com.br",
       "time" : {
-        "start" : 1647786440087,
-        "stop" : 1647786440643,
-        "duration" : 556
+        "start" : 1647985794720,
+        "stop" : 1647985795286,
+        "duration" : 566
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "get input[id=\"passwd\"]",
       "time" : {
-        "start" : 1647786440643,
-        "stop" : 1647786440687,
-        "duration" : 44
+        "start" : 1647985795286,
+        "stop" : 1647985795332,
+        "duration" : 46
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "assert expected **<input#passwd.is_required.validate.account_input.form-control>** to be **visible**",
       "time" : {
-        "start" : 1647786440687,
-        "stop" : 1647786440687,
+        "start" : 1647985795332,
+        "stop" : 1647985795332,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "type 123456",
       "time" : {
-        "start" : 1647786440687,
-        "stop" : 1647786440957,
-        "duration" : 270
+        "start" : 1647985795332,
+        "stop" : 1647985795611,
+        "duration" : 279
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "get button[id=\"SubmitLogin\"]",
       "time" : {
-        "start" : 1647786440957,
-        "stop" : 1647786440979,
-        "duration" : 22
+        "start" : 1647985795611,
+        "stop" : 1647985795626,
+        "duration" : 15
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647786440979,
-        "stop" : 1647786441125,
-        "duration" : 146
+        "start" : 1647985795626,
+        "stop" : 1647985795752,
+        "duration" : 126
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "form sub --submitting form--",
       "time" : {
-        "start" : 1647786441125,
-        "stop" : 1647786441125,
+        "start" : 1647985795751,
+        "stop" : 1647985795751,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1647786441125,
-        "stop" : 1647786441125,
+        "start" : 1647985795751,
+        "stop" : 1647985795751,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=my-account",
       "time" : {
-        "start" : 1647786441125,
-        "stop" : 1647786444503,
-        "duration" : 3378
+        "start" : 1647985795752,
+        "stop" : 1647985798428,
+        "duration" : 2676
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "contains span, Jefferson Silva",
       "time" : {
-        "start" : 1647786444503,
-        "stop" : 1647786444503,
+        "start" : 1647985798428,
+        "stop" : 1647985798428,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "assert expected **<span>** to be **visible**",
       "time" : {
-        "start" : 1647786444503,
-        "stop" : 1647786444503,
+        "start" : 1647985798428,
+        "stop" : 1647985798428,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 15,
-    "hasContent" : true,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : true,
+    "stepsCount" : 15
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -269,6 +269,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "52c849bf558810d9.json",
+  "source" : "79545271df6cf989.json",
   "parameterValues" : [ ]
 }

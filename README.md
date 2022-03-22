@@ -6,7 +6,7 @@
 Criar um projeto de automação utilizando como base o site **Automation Practice**.
 Efetue um cadastro de usuário.
 
-É necessário conter no mínimo os seguintes cenários
+<!-- É necessário conter no mínimo os seguintes cenários -->
 
 * `Login com sucesso`
 * `Login inválido`
@@ -39,7 +39,7 @@ Para gerar o Allure Reports, utilize os comandos na sequencia abaixo:
 
 <br />
 <p align="center">
-    <img src="./cypress/assets/allure.png" width="500" alt="Allure">
+    <img src="./cypress/assets/allure_att.png" width="500" alt="Allure">
     </p>
 
 ### Tecnologias

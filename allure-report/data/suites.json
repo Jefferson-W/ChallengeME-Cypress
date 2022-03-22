@@ -1,16 +1,55 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
+    "name" : "cadastro",
+    "children" : [ {
+      "name" : "cadastro com sucesso",
+      "uid" : "dd82d34b873e0521",
+      "parentUid" : "ee11116ad62ee0a0d23d8c3a0b8b8131",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647985751543,
+        "stop" : 1647985769385,
+        "duration" : 17842
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "cadastro com dados faltantes",
+      "uid" : "129c48a5274b79fa",
+      "parentUid" : "ee11116ad62ee0a0d23d8c3a0b8b8131",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647985769405,
+        "stop" : 1647985782909,
+        "duration" : 13504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ee11116ad62ee0a0d23d8c3a0b8b8131"
+  }, {
     "name" : "Login",
     "children" : [ {
       "name" : "login com sucesso",
-      "uid" : "52c849bf558810d9",
+      "uid" : "79545271df6cf989",
       "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
       "status" : "passed",
       "time" : {
-        "start" : 1647786435770,
-        "stop" : 1647786444504,
-        "duration" : 8734
+        "start" : 1647985790583,
+        "stop" : 1647985798430,
+        "duration" : 7847
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +60,13 @@
       "parameters" : [ ]
     }, {
       "name" : "login inválido",
-      "uid" : "5a01f45139f527ac",
+      "uid" : "a31f46fd2c418bb",
       "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
       "status" : "passed",
       "time" : {
-        "start" : 1647786444528,
-        "stop" : 1647786448260,
-        "duration" : 3732
+        "start" : 1647985798453,
+        "stop" : 1647985802315,
+        "duration" : 3862
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +77,13 @@
       "parameters" : [ ]
     }, {
       "name" : "login em branco",
-      "uid" : "c79401c0c776f426",
+      "uid" : "e5f53c99ea25d897",
       "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
       "status" : "passed",
       "time" : {
-        "start" : 1647786448298,
-        "stop" : 1647786451769,
-        "duration" : 3471
+        "start" : 1647985802379,
+        "stop" : 1647985806014,
+        "duration" : 3635
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,6 +94,5 @@
       "parameters" : [ ]
     } ],
     "uid" : "1a85855463aca3ea10b8fe0fcb3372b8"
-  } ],
-  "name" : "suites"
+  } ]
 }
