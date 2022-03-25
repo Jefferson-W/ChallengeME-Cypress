@@ -1,12 +1,12 @@
 {
-  "uid" : "1ce93e7d11a5441d",
+  "uid" : "9954e14407ff5e51",
   "name" : "cadastro com dados faltantes",
   "fullName" : "cadastro com dados faltantes",
   "historyId" : "6df15e25990c328ed658f58d6e819365",
   "time" : {
-    "start" : 1648143228326,
-    "stop" : 1648143239566,
-    "duration" : 11240
+    "start" : 1648180287195,
+    "stop" : 1648180301213,
+    "duration" : 14018
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "visitando a pagina",
       "time" : {
-        "start" : 1648143228327,
-        "stop" : 1648143230335,
-        "duration" : 2008
+        "start" : 1648180287196,
+        "stop" : 1648180292897,
+        "duration" : 5701
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit ?controller=authentication -> 302: http://automationpractice.com/index.php?controller=authentication",
         "time" : {
-          "start" : 1648143228349,
-          "stop" : 1648143230334,
-          "duration" : 1985
+          "start" : 1648180287239,
+          "stop" : 1648180292896,
+          "duration" : 5657
         },
         "status" : "passed",
         "steps" : [ ],
@@ -39,21 +39,21 @@
         "parameters" : [ ],
         "stepsCount" : 0,
         "hasContent" : false,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "stepsCount" : 1,
       "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get input[id=\"email_create\"]",
       "time" : {
-        "start" : 1648143230340,
-        "stop" : 1648143230363,
-        "duration" : 23
+        "start" : 1648180292902,
+        "stop" : 1648180292924,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
@@ -61,13 +61,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "assert expected **<input#email_create.is_required.validate.account_input.form-control>** to be **visible**",
       "time" : {
-        "start" : 1648143230362,
-        "stop" : 1648143230362,
+        "start" : 1648180292924,
+        "stop" : 1648180292924,
         "duration" : 0
       },
       "status" : "passed",
@@ -76,14 +76,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "type OtiliaSpencer1977email_Gleichner@gmail.com",
+      "name" : "type ErnestoRohan7820email70@hotmail.com",
       "time" : {
-        "start" : 1648143230363,
-        "stop" : 1648143231095,
-        "duration" : 732
+        "start" : 1648180292924,
+        "stop" : 1648180293569,
+        "duration" : 645
       },
       "status" : "passed",
       "steps" : [ ],
@@ -91,13 +91,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get button[id=\"SubmitCreate\"]",
       "time" : {
-        "start" : 1648143231095,
-        "stop" : 1648143231112,
+        "start" : 1648180293569,
+        "stop" : 1648180293586,
         "duration" : 17
       },
       "status" : "passed",
@@ -106,14 +106,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1648143231113,
-        "stop" : 1648143231262,
-        "duration" : 149
+        "start" : 1648180293586,
+        "stop" : 1648180293748,
+        "duration" : 162
       },
       "status" : "passed",
       "steps" : [ ],
@@ -121,13 +121,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "POST /index.php",
       "time" : {
-        "start" : 1648143231261,
-        "stop" : 1648143231261,
+        "start" : 1648180293748,
+        "stop" : 1648180293748,
         "duration" : 0
       },
       "status" : "passed",
@@ -136,14 +136,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get input[id=\"customer_firstname\"]",
       "time" : {
-        "start" : 1648143231262,
-        "stop" : 1648143233404,
-        "duration" : 2142
+        "start" : 1648180293748,
+        "stop" : 1648180295589,
+        "duration" : 1841
       },
       "status" : "passed",
       "steps" : [ ],
@@ -151,13 +151,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "assert expected **<input#customer_firstname.is_required.validate.form-control>** to be **visible**",
       "time" : {
-        "start" : 1648143233404,
-        "stop" : 1648143233404,
+        "start" : 1648180295589,
+        "stop" : 1648180295589,
         "duration" : 0
       },
       "status" : "passed",
@@ -166,14 +166,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "type Otilia",
+      "name" : "type Ernesto",
       "time" : {
-        "start" : 1648143233404,
-        "stop" : 1648143233674,
-        "duration" : 270
+        "start" : 1648180295589,
+        "stop" : 1648180295875,
+        "duration" : 286
       },
       "status" : "passed",
       "steps" : [ ],
@@ -181,418 +181,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get input[id=\"customer_lastname\"]",
       "time" : {
-        "start" : 1648143233674,
-        "stop" : 1648143233691,
-        "duration" : 17
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **<input#customer_lastname.is_required.validate.form-control>** to be **visible**",
-      "time" : {
-        "start" : 1648143233691,
-        "stop" : 1648143233691,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "type Spencer",
-      "time" : {
-        "start" : 1648143233691,
-        "stop" : 1648143234036,
-        "duration" : 345
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "new url http://automationpractice.com/index.php?controller=authentication#account-creation",
-      "time" : {
-        "start" : 1648143234035,
-        "stop" : 1648143234035,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get input[id=\"passwd\"]",
-      "time" : {
-        "start" : 1648143234036,
-        "stop" : 1648143234054,
-        "duration" : 18
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **<input#passwd.is_required.validate.form-control>** to be **visible**",
-      "time" : {
-        "start" : 1648143234054,
-        "stop" : 1648143234054,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "type ¨@#OtiliaSpencer1977email",
-      "time" : {
-        "start" : 1648143234054,
-        "stop" : 1648143234589,
-        "duration" : 535
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get input[id=\"firstname\"]",
-      "time" : {
-        "start" : 1648143234589,
-        "stop" : 1648143234611,
-        "duration" : 22
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **<input#firstname.form-control>** to be **visible**",
-      "time" : {
-        "start" : 1648143234611,
-        "stop" : 1648143234611,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "type Vila olimpia",
-      "time" : {
-        "start" : 1648143234611,
-        "stop" : 1648143234988,
-        "duration" : 377
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get input[id=\"lastname\"]",
-      "time" : {
-        "start" : 1648143234988,
-        "stop" : 1648143235008,
-        "duration" : 20
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **<input#lastname.form-control>** to be **visible**",
-      "time" : {
-        "start" : 1648143235008,
-        "stop" : 1648143235008,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "type testes",
-      "time" : {
-        "start" : 1648143235008,
-        "stop" : 1648143235309,
-        "duration" : 301
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get input[id=\"address1\"]",
-      "time" : {
-        "start" : 1648143235309,
-        "stop" : 1648143235343,
-        "duration" : 34
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **<input#address1.form-control>** to be **visible**",
-      "time" : {
-        "start" : 1648143235343,
-        "stop" : 1648143235343,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "type rua gomes de carvalho",
-      "time" : {
-        "start" : 1648143235343,
-        "stop" : 1648143235844,
-        "duration" : 501
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get input[id=\"city\"]",
-      "time" : {
-        "start" : 1648143235844,
-        "stop" : 1648143235886,
-        "duration" : 42
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **<input#city.form-control>** to be **visible**",
-      "time" : {
-        "start" : 1648143235886,
-        "stop" : 1648143235886,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "type Sao Paulo",
-      "time" : {
-        "start" : 1648143235886,
-        "stop" : 1648143236266,
-        "duration" : 380
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get select[id=\"id_state\"]",
-      "time" : {
-        "start" : 1648143236266,
-        "stop" : 1648143236288,
-        "duration" : 22
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "select Florida",
-      "time" : {
-        "start" : 1648143236288,
-        "stop" : 1648143236562,
-        "duration" : 274
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get input[id=\"postcode\"]",
-      "time" : {
-        "start" : 1648143236562,
-        "stop" : 1648143236601,
-        "duration" : 39
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **<input#postcode.form-control.uniform-input.text>** to be **visible**",
-      "time" : {
-        "start" : 1648143236600,
-        "stop" : 1648143236600,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "type 32207",
-      "time" : {
-        "start" : 1648143236601,
-        "stop" : 1648143236960,
-        "duration" : 359
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get input[id=\"alias\"]",
-      "time" : {
-        "start" : 1648143236960,
-        "stop" : 1648143237013,
-        "duration" : 53
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **<input#alias.form-control>** to be **visible**",
-      "time" : {
-        "start" : 1648143237013,
-        "stop" : 1648143237013,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "type Alias",
-      "time" : {
-        "start" : 1648143237013,
-        "stop" : 1648143237311,
-        "duration" : 298
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get button[id=\"submitAccount\"]",
-      "time" : {
-        "start" : 1648143237311,
-        "stop" : 1648143237327,
+        "start" : 1648180295875,
+        "stop" : 1648180295891,
         "duration" : 16
       },
       "status" : "passed",
@@ -601,14 +196,419 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<input#customer_lastname.is_required.validate.form-control>** to be **visible**",
+      "time" : {
+        "start" : 1648180295891,
+        "stop" : 1648180295891,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type Rohan",
+      "time" : {
+        "start" : 1648180295891,
+        "stop" : 1648180296208,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url http://automationpractice.com/index.php?controller=authentication#account-creation",
+      "time" : {
+        "start" : 1648180296208,
+        "stop" : 1648180296208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get input[id=\"passwd\"]",
+      "time" : {
+        "start" : 1648180296208,
+        "stop" : 1648180296226,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<input#passwd.is_required.validate.form-control>** to be **visible**",
+      "time" : {
+        "start" : 1648180296226,
+        "stop" : 1648180296226,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type ¨@#ErnestoRohan7820email",
+      "time" : {
+        "start" : 1648180296227,
+        "stop" : 1648180296756,
+        "duration" : 529
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get input[id=\"firstname\"]",
+      "time" : {
+        "start" : 1648180296756,
+        "stop" : 1648180296775,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<input#firstname.form-control>** to be **visible**",
+      "time" : {
+        "start" : 1648180296775,
+        "stop" : 1648180296775,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type Vila olimpia",
+      "time" : {
+        "start" : 1648180296775,
+        "stop" : 1648180297145,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get input[id=\"lastname\"]",
+      "time" : {
+        "start" : 1648180297145,
+        "stop" : 1648180297165,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<input#lastname.form-control>** to be **visible**",
+      "time" : {
+        "start" : 1648180297165,
+        "stop" : 1648180297165,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type testes",
+      "time" : {
+        "start" : 1648180297165,
+        "stop" : 1648180297464,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get input[id=\"address1\"]",
+      "time" : {
+        "start" : 1648180297464,
+        "stop" : 1648180297486,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<input#address1.form-control>** to be **visible**",
+      "time" : {
+        "start" : 1648180297486,
+        "stop" : 1648180297486,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type rua gomes de carvalho",
+      "time" : {
+        "start" : 1648180297486,
+        "stop" : 1648180298002,
+        "duration" : 516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get input[id=\"city\"]",
+      "time" : {
+        "start" : 1648180298002,
+        "stop" : 1648180298025,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<input#city.form-control>** to be **visible**",
+      "time" : {
+        "start" : 1648180298025,
+        "stop" : 1648180298025,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type Sao Paulo",
+      "time" : {
+        "start" : 1648180298025,
+        "stop" : 1648180298367,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get select[id=\"id_state\"]",
+      "time" : {
+        "start" : 1648180298367,
+        "stop" : 1648180298393,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "select North Dakota",
+      "time" : {
+        "start" : 1648180298393,
+        "stop" : 1648180298638,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get input[id=\"postcode\"]",
+      "time" : {
+        "start" : 1648180298638,
+        "stop" : 1648180298664,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<input#postcode.form-control.uniform-input.text>** to be **visible**",
+      "time" : {
+        "start" : 1648180298664,
+        "stop" : 1648180298664,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type 32207",
+      "time" : {
+        "start" : 1648180298664,
+        "stop" : 1648180298970,
+        "duration" : 306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get input[id=\"alias\"]",
+      "time" : {
+        "start" : 1648180298970,
+        "stop" : 1648180299018,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<input#alias.form-control>** to be **visible**",
+      "time" : {
+        "start" : 1648180299017,
+        "stop" : 1648180299017,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type Alias",
+      "time" : {
+        "start" : 1648180299018,
+        "stop" : 1648180299318,
+        "duration" : 300
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get button[id=\"submitAccount\"]",
+      "time" : {
+        "start" : 1648180299318,
+        "stop" : 1648180299346,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1648143237327,
-        "stop" : 1648143237504,
-        "duration" : 177
+        "start" : 1648180299346,
+        "stop" : 1648180299531,
+        "duration" : 185
       },
       "status" : "passed",
       "steps" : [ ],
@@ -616,13 +616,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "form sub --submitting form--",
       "time" : {
-        "start" : 1648143237503,
-        "stop" : 1648143237503,
+        "start" : 1648180299531,
+        "stop" : 1648180299531,
         "duration" : 0
       },
       "status" : "passed",
@@ -631,13 +631,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1648143237503,
-        "stop" : 1648143237503,
+        "start" : 1648180299531,
+        "stop" : 1648180299531,
         "duration" : 0
       },
       "status" : "passed",
@@ -646,14 +646,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=authentication",
       "time" : {
-        "start" : 1648143237504,
-        "stop" : 1648143239565,
-        "duration" : 2061
+        "start" : 1648180299531,
+        "stop" : 1648180301212,
+        "duration" : 1681
       },
       "status" : "passed",
       "steps" : [ ],
@@ -661,13 +661,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get ol > li",
       "time" : {
-        "start" : 1648143239565,
-        "stop" : 1648143239565,
+        "start" : 1648180301212,
+        "stop" : 1648180301212,
         "duration" : 0
       },
       "status" : "passed",
@@ -676,13 +676,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "assert expected **<li>** to be **visible**",
       "time" : {
-        "start" : 1648143239565,
-        "stop" : 1648143239565,
+        "start" : 1648180301212,
+        "stop" : 1648180301212,
         "duration" : 0
       },
       "status" : "passed",
@@ -691,13 +691,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "assert expected **<li>** to have text **You must register at least one phone number.**",
       "time" : {
-        "start" : 1648143239565,
-        "stop" : 1648143239565,
+        "start" : 1648180301212,
+        "stop" : 1648180301212,
         "duration" : 0
       },
       "status" : "passed",
@@ -712,15 +712,15 @@
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 46,
     "hasContent" : true,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -740,6 +740,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1ce93e7d11a5441d.json",
+  "source" : "9954e14407ff5e51.json",
   "parameterValues" : [ ]
 }

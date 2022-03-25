@@ -1,4 +1,5 @@
 
+
 class cadastroPage{ // Criado a classe LoginPage
 
   fillForm(cadastroData){ // função que recebe como parametro, os dados de acesso, de acordo com o que foi atribuido na spec
@@ -14,6 +15,8 @@ class cadastroPage{ // Criado a classe LoginPage
   }
 
   fillFormCreateUser(cadastroData){
+
+
     cy.get('input[id="customer_firstname"]') 
     .should('be.visible')
     .type(cadastroData.firstName)
@@ -45,7 +48,7 @@ class cadastroPage{ // Criado a classe LoginPage
     .type(cadastroData.city)
 
     cy.get('select[id="id_state"]') 
-    .select('Florida')
+    .select(cadastroData.state)
 
 
     cy.get('input[id="postcode"]') 
