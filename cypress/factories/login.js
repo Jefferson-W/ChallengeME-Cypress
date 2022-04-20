@@ -1,3 +1,8 @@
+
+
+// factories é onde fica a massa de dados, nesse caso, dados para o cenário de login
+
+
 const faker = require('faker'); // Utilizando a lib para gerar os dados fakes
 
 

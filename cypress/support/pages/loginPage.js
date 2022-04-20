@@ -11,7 +11,8 @@ class LoginPage{ // Criado a classe LoginPage
     // Realiza os passos acima, e envia a senha
     cy.get('input[id="passwd"]')
     .should('be.visible')
-    .type(loginData.senha)
+    .type(loginData.senha,{log: false}) // evitar de logar a senha 
+    )
   }
 
   submitForm(){

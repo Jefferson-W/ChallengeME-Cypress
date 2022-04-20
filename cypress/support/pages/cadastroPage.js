@@ -28,7 +28,7 @@ class cadastroPage{ // Criado a classe LoginPage
 
     cy.get('input[id="passwd"]') 
     .should('be.visible')
-    .type(cadastroData.passwd)
+    .type(cadastroData.passwd, {log: false}) // evitar de logar a senha 
 
     cy.get('input[id="firstname"]') 
     .should('be.visible')
